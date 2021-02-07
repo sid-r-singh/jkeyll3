@@ -1,1 +1,1 @@
-Sitemap: //vrongmeal.co/sitemap.xml
+Sitemap: https://sidrana.dev//jkeyll3/sitemap.xml
