@@ -1,7 +1,7 @@
 name: Continuous Deployment
 
 on:
-  p:
+  push:
     branches: [ default ]
 
 jobs:
@@ -30,9 +30,6 @@ jobs:
 
     - name: Build site
       run: bundle exec jekyll build
-
-    - name: Add CNAME
-      run: cp CNAME ./_site
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@3.7.1
