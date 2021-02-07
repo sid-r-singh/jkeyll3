@@ -6,8 +6,8 @@ email: vrongmeal@gmail.com
 description: >-
   About, Blog and Projects of Vaibhav, a.k.a., @vrongmeal
 
-baseurl: "jkeyll3"
-url: "https://sidrana.dev"
+baseurl: "/jkeyll3"
+url: "https://sidrana.dev/"
 
 markdown: kramdown
 kramdown:
